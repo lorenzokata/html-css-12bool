@@ -1,0 +1,21 @@
+.box-yellow{
+    min-height:50px;
+    background-color: yellow;
+    border: 1px solid black;
+}
+
+.box-red{
+    min-height:50px;
+    background-color: red;
+    border: 1px solid black;
+}
+
+.box-black{
+    min-height:50px;
+    background-color: black;
+    border: 1px solid black;
+}
+
+body{
+    background-color: white;
+}
