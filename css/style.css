@@ -1,15 +1,20 @@
+.row{
+    height: calc(100vh / 5);
+}
+
 .box{
-    min-height: 50px;
-    background-color: #006cfa;
-    border: 1px solid white;
-    padding: 15px;
-    text-align: center;
-    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    background-color: #ffc0cb;
+    border: 1px solid black;
+    color: black;
 }
 
 .box-nested {
     background-color:green;
-    border: 1px solid white;
+    border: 1px solid black;
     min-height: 50px;
 }
 
