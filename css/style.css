@@ -2,7 +2,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    min-height: calc(100vh / 5);
+    min-height: 50px;
     background-color: #ffc0cb;
     border: 1px solid black;
     color: black;
@@ -12,8 +12,19 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    min-height: calc(100vh / 5);
+    min-height: 50px;
     background-color: #f07f80;
     border: 1px solid white;
     color: black;
+}
+
+@media screen and (min-width:768px) {
+
+    .box{
+        min-height: 200px;
+    }
+
+    .box-nested{
+        min-height: 200px;
+    }
 }
