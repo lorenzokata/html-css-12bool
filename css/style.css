@@ -1,29 +1,19 @@
-.row{
-    height: calc(100vh / 5);
-}
-
 .box{
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100%;
+    min-height: calc(100vh / 5);
     background-color: #ffc0cb;
     border: 1px solid black;
     color: black;
 }
 
 .box-nested {
-    background-color:green;
-    border: 1px solid black;
-    min-height: 50px;
-}
-
-.box-nested2 {
-    background-color:red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: calc(100vh / 5);
+    background-color: #f07f80;
     border: 1px solid white;
-    min-height: 50px;
-}
-
-.box-large {
-    min-height: 100px;
+    color: black;
 }
